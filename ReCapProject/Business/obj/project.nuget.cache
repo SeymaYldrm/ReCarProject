@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2NfL/Y5NjkiuXYewsj3mAcQ07RoZ4NxgjgSgI9FSHzX9uQS9CdHt0+Dcp4mFw/z09rjmyPFMz6qRO8H/aa1StA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\Business\\Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GEOS\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\GEOS\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
