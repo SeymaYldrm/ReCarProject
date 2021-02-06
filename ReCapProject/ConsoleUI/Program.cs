@@ -1,5 +1,7 @@
 ﻿using Business.Concrete;
 using DataAccess.Concrete;
+using DataAccess.Concrete.EntityFramework;
+using Entities.Concrete;
 using System;
 
 namespace ConsoleUI
@@ -8,15 +10,31 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            CarManager carManager = new CarManager(new InMemoryCarDal());
-            var carList = carManager.GetAll();
+            CarManager carManager = new CarManager(new EfCarDal());
+            BrandManager brandManager = new BrandManager(new EfBrandDal());
+            ColorManager colorManager = new ColorManager(new EfColorDal());
 
-            foreach (var car in carList)
+            Console.WriteLine("Markası BMW olan arabalar: \nId\tColor Name\tBrand Name\tModel Year\tDaily Price");
+            foreach (var car in carManager.GetAllByBrandId(1))
             {
-                Console.WriteLine("Id: " + car.Id);
-                Console.WriteLine("Model Yılı: " + car.ModelYear);
-                Console.WriteLine("Günlük Ücret: " + car.DailyPrice + " tl");
+                Console.WriteLine($"{car.Id}\t{colorManager.GetById(car.ColorID).ColorName}\t\t{brandManager.GetById(car.BrandID).BrandName}\t\t{car.ModelYear}\t\t{car.DailyPrice}");
             }
+
+            Console.WriteLine("\n\nId'si 4 olan araba: \nId\tColor Name\tBrand Name\tModel Year\tDaily Price");
+            Cars carById = carManager.GetById(4);
+            Console.WriteLine($"{carById.Id}\t{colorManager.GetById(carById.ColorID).ColorName}\t\t{brandManager.GetById(carById.BrandID).BrandName}\t\t{carById.ModelYear}\t\t{carById.DailyPrice}");
+
+            Console.WriteLine("\n\nGünlük fiyat aralığı 1000 ile 1500 olan arabalar: \nId\tColor Name\tBrand Name\tModel Year\tDaily Price");
+            foreach (var car in carManager.GetByDailyPrice(1000, 1500))
+            {
+                Console.WriteLine($"{car.Id}\t{colorManager.GetById(car.ColorID).ColorName}\t\t{brandManager.GetById(car.BrandID).BrandName}\t\t{car.ModelYear}\t\t{car.DailyPrice}");
+            }
+
+            Console.WriteLine("\n");
+
+            carManager.Add(new Cars { BrandID = 1, ColorID = 2, DailyPrice = -300, ModelYear = "2021" });
+            brandManager.Add(new Brands { BrandName = "a" });
+
         }
     }
 }

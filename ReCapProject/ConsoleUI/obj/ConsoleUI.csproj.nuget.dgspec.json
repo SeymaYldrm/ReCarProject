@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {}
+    "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\Business\\Business.csproj": {
+    "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\Business\\Business.csproj",
+        "projectUniqueName": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\Business\\Business.csproj",
+        "projectPath": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\GEOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\Business\\obj\\",
+        "outputPath": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
@@ -35,11 +35,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+              "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {
+    "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\GEOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\ConsoleUI\\obj\\",
+        "outputPath": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
@@ -106,14 +106,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\Business\\Business.csproj"
+              "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Business\\Business.csproj": {
+                "projectPath": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Business\\Business.csproj"
               },
-              "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+              "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -146,14 +146,14 @@
         }
       }
     },
-    "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+    "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\GEOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\DataAccess\\obj\\",
+        "outputPath": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
@@ -177,8 +177,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+              "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -193,6 +193,26 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -214,14 +234,14 @@
         }
       }
     },
-    "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
+    "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+        "projectPath": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\GEOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GEOS\\source\\repos\\ReCapProject\\Entities\\obj\\",
+        "outputPath": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
