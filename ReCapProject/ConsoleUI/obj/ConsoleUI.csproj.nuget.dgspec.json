@@ -146,6 +146,74 @@
         }
       }
     },
+    "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\GEOS\\.nuget\\packages\\",
+        "outputPath": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GEOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\FastReports\\FastReport.Net\\Nugets": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -264,7 +332,11 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "D:\\Prog\\User\\Files\\Documents\\GitHub\\ŞeymaYıldırım\\ReCarProject\\ReCapProject\\Core\\Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
