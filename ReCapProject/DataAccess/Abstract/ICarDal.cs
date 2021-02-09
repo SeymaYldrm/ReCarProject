@@ -2,7 +2,7 @@
 
 namespace DataAccess.Abstract
 {
-    public interface ICarDal : IEntityRepository<Cars>
+    public interface ICarDal : IEntityRepository<Car>
     {
        
     }

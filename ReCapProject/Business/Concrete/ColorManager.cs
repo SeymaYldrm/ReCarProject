@@ -14,29 +14,29 @@ namespace Business.Concrete
         {
             _colorDal = colorDal;
         }
-        public void Add(Colors color)
+        public void Add(Color color)
         {
             _colorDal.Add(color);
             Console.WriteLine("Araba Renginiz Başarıyla Eklenmiştir.");
         }
 
-        public void Delete(Colors color)
+        public void Delete(Color color)
         {
             _colorDal.Delete(color);
             Console.WriteLine("Araba Renginiz Başarıyla Silinmiştir.");
         }
 
-        public List<Colors> GetAll()
+        public List<Color> GetAll()
         {
             return _colorDal.GetAll();
         }
 
-        public Colors GetById(int id)
+        public Color GetById(int id)
         {
             return _colorDal.Get(p => p.ColorID == id);
         }
 
-        public void Update(Colors color)
+        public void Update(Color color)
         {
             _colorDal.Update(color);
             Console.WriteLine("Araba Renginiz Başarıyla Güncellenmiştir.");

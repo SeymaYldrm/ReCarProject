@@ -33,7 +33,7 @@ namespace ConsoleUI
             Console.WriteLine("\n");
 
             carManager.Add(new Cars { BrandID = 1, ColorID = 2, DailyPrice = -300, ModelYear = "2021" });
-            brandManager.Add(new Brands { BrandName = "a" });
+            brandManager.Add(new Brand { BrandName = "a" });
 
         }
     }

@@ -11,7 +11,7 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EfColorDal : IColorDal
     {
-        public void Add(Colors entity)
+        public void Add(Color entity)
         {
             using (RentACarContext context = new RentACarContext())
             {
@@ -21,7 +21,7 @@ namespace DataAccess.Concrete.EntityFramework
             }
         }
 
-        public void Delete(Colors entity)
+        public void Delete(Color entity)
         {
             using (RentACarContext context = new RentACarContext())
             {
@@ -31,25 +31,25 @@ namespace DataAccess.Concrete.EntityFramework
             }
         }
 
-        public Colors Get(Expression<Func<Colors, bool>> filter)
+        public Color Get(Expression<Func<Color, bool>> filter)
         {
             using (RentACarContext context = new RentACarContext())
             {
-                return context.Set<Colors>().SingleOrDefault(filter);
+                return context.Set<Color>().SingleOrDefault(filter);
             }
         }
 
-        public List<Colors> GetAll(Expression<Func<Colors, bool>> filter = null)
+        public List<Color> GetAll(Expression<Func<Color, bool>> filter = null)
         {
             using (RentACarContext context = new RentACarContext())
             {
                 return filter == null
-                     ? context.Set<Colors>().ToList()
-                     : context.Set<Colors>().Where(filter).ToList();
+                     ? context.Set<Color>().ToList()
+                     : context.Set<Color>().Where(filter).ToList();
             }
         }
 
-        public void Update(Colors entity)
+        public void Update(Color entity)
         {
             using (RentACarContext context = new RentACarContext())
             {

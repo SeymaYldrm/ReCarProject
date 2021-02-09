@@ -14,7 +14,7 @@ namespace Business.Concrete
         {
             _brandDal = brandDal;
         }
-        public void Add(Brands brand)
+        public void Add(Brand brand)
         {
             if (brand.BrandName.Length > 2)
             {
@@ -27,23 +27,23 @@ namespace Business.Concrete
             }
         }
 
-        public void Delete(Brands brand)
+        public void Delete(Brand brand)
         {
             _brandDal.Delete(brand);
             Console.WriteLine("Marka başarıyla silindi.");
         }
 
-        public List<Brands> GetAll()
+        public List<Brand> GetAll()
         {
             return _brandDal.GetAll();
         }
 
-        public Brands GetById(int id)
+        public Brand GetById(int id)
         {
             return _brandDal.Get(p => p.BrandID == id);
         }
 
-        public void Update(Brands brand)
+        public void Update(Brand brand)
         {
             if (brand.BrandName.Length >= 2)
             {
