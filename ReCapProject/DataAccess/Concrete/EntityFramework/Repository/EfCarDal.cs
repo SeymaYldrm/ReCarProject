@@ -11,7 +11,7 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EfCarDal : ICarDal
     {
-        public void Add(Cars entity)
+        public void Add(Car entity)
         {
             using (RentACarContext context = new RentACarContext())
             {
@@ -21,7 +21,7 @@ namespace DataAccess.Concrete.EntityFramework
             }
         }
 
-        public void Delete(Cars entity)
+        public void Delete(Car entity)
         {
             using (RentACarContext context = new RentACarContext())
             {
@@ -31,23 +31,23 @@ namespace DataAccess.Concrete.EntityFramework
             }
         }
 
-        public Cars Get(Expression<Func<Cars, bool>> filter)
+        public Car Get(Expression<Func<Car, bool>> filter)
         {
             using (RentACarContext context = new RentACarContext())
             {
-                return context.Set<Cars>().SingleOrDefault(filter);
+                return context.Set<Car>().SingleOrDefault(filter);
             }
         }
 
-        public List<Cars> GetAll(Expression<Func<Cars, bool>> filter = null)
+        public List<Car> GetAll(Expression<Func<Car, bool>> filter = null)
         {
             using (RentACarContext context = new RentACarContext())
             {
-                return filter == null ? context.Set<Cars>().ToList() : context.Set<Cars>().Where(filter).ToList();
+                return filter == null ? context.Set<Car>().ToList() : context.Set<Car>().Where(filter).ToList();
             }
         }
 
-        public void Update(Cars entity)
+        public void Update(Car entity)
         {
             using (RentACarContext context = new RentACarContext())
             {

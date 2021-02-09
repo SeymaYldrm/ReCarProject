@@ -2,7 +2,7 @@
 
 namespace Entities.Concrete
 {
-    public class Brands :IEntity
+    public class Brand :IEntity
     {
         public int BrandID { get; set; }
         public string BrandName { get; set; }

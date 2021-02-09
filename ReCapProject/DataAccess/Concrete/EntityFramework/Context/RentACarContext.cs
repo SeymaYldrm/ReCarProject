@@ -10,9 +10,9 @@ namespace DataAccess.Concrete.EntityFramework.Context
             optionsBuilder.UseSqlServer(@"Server = (local);Database = ReCap;Trusted_Connection=true");
         }
 
-        public DbSet<Cars> Cars { get; set; }
+        public DbSet<Car> Cars { get; set; }
         public DbSet<Brand> Brands { get; set; }
-        public DbSet<Colors> Colors { get; set; }
+        public DbSet<Color> Colors { get; set; }
 
     }
 }

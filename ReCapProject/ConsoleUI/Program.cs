@@ -21,7 +21,7 @@ namespace ConsoleUI
             }
 
             Console.WriteLine("\n\nId'si 4 olan araba: \nId\tColor Name\tBrand Name\tModel Year\tDaily Price");
-            Cars carById = carManager.GetById(4);
+            Car carById = carManager.GetById(4);
             Console.WriteLine($"{carById.Id}\t{colorManager.GetById(carById.ColorID).ColorName}\t\t{brandManager.GetById(carById.BrandID).BrandName}\t\t{carById.ModelYear}\t\t{carById.DailyPrice}");
 
             Console.WriteLine("\n\nGünlük fiyat aralığı 1000 ile 1500 olan arabalar: \nId\tColor Name\tBrand Name\tModel Year\tDaily Price");
@@ -32,7 +32,7 @@ namespace ConsoleUI
 
             Console.WriteLine("\n");
 
-            carManager.Add(new Cars { BrandID = 1, ColorID = 2, DailyPrice = -300, ModelYear = "2021" });
+            carManager.Add(new Car { BrandID = 1, ColorID = 2, DailyPrice = -300, ModelYear = "2021" });
             brandManager.Add(new Brand { BrandName = "a" });
 
         }
