@@ -21,3 +21,4 @@ C:\Users\GEOS\source\repos\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\Consol
 D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.AssemblyInfoInputs.cache
 D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.AssemblyInfo.cs
 D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.csproj.CoreCompileInputs.cache
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.csprojAssemblyReference.cache

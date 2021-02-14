@@ -6,3 +6,4 @@ D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\
 D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
 D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Core\obj\Debug\netstandard2.0\Core.dll
 D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Core\obj\Debug\netstandard2.0\Core.pdb
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Core\obj\Debug\netstandard2.0\Core.csprojAssemblyReference.cache
