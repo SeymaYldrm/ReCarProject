@@ -15,11 +15,11 @@ namespace DataAccess.Concrete
         {
             _car = new List<Car>
             {
-                new Car{Id =1, BrandID =1, ColorID = 1, ModelYear ="2000",DailyPrice =  2000},
-                new Car{Id =2, BrandID =1, ColorID = 2, ModelYear ="2005",DailyPrice =  4000},
-                new Car{Id =3, BrandID =2, ColorID = 2, ModelYear ="2010",DailyPrice =  6000},
-                new Car{Id =4, BrandID =3, ColorID = 3, ModelYear ="2015",DailyPrice =  8000},
-                new Car{Id =5, BrandID =3, ColorID = 3, ModelYear ="2020",DailyPrice =  10000},
+                new Car{Id =1, BrandID =1, ColorID = 1, ModelYear =2000,DailyPrice =  2000},
+                new Car{Id =2, BrandID =1, ColorID = 2, ModelYear =2005,DailyPrice =  4000},
+                new Car{Id =3, BrandID =2, ColorID = 2, ModelYear =2010,DailyPrice =  6000},
+                new Car{Id =4, BrandID =3, ColorID = 3, ModelYear =2015,DailyPrice =  8000},
+                new Car{Id =5, BrandID =3, ColorID = 3, ModelYear =2020,DailyPrice =  10000},
             };
         }
         public void Add(Car car)

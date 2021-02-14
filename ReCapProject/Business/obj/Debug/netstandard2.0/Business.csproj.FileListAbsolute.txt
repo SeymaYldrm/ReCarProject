@@ -16,3 +16,15 @@ D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\
 D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Business\obj\Debug\netstandard2.0\Business.AssemblyInfo.cs
 D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CoreCompileInputs.cache
 D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csprojAssemblyReference.cache
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Business\bin\Debug\netstandard2.0\Business.deps.json
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Business\bin\Debug\netstandard2.0\Business.dll
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Business\bin\Debug\netstandard2.0\Business.pdb
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Business\bin\Debug\netstandard2.0\Core.dll
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Business\bin\Debug\netstandard2.0\DataAccess.dll
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Business\bin\Debug\netstandard2.0\Entities.dll
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Business\bin\Debug\netstandard2.0\DataAccess.pdb
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Business\bin\Debug\netstandard2.0\Entities.pdb
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Business\bin\Debug\netstandard2.0\Core.pdb
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Business\obj\Debug\netstandard2.0\Business.dll
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\Business\obj\Debug\netstandard2.0\Business.pdb
