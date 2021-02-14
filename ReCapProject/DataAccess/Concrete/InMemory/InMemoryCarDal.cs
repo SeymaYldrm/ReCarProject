@@ -15,11 +15,11 @@ namespace DataAccess.Concrete
         {
             _car = new List<Car>
             {
-                new Car{Id =1, BrandID =1, ColorID = 1, ModelYear =2000,DailyPrice =  2000},
-                new Car{Id =2, BrandID =1, ColorID = 2, ModelYear =2005,DailyPrice =  4000},
-                new Car{Id =3, BrandID =2, ColorID = 2, ModelYear =2010,DailyPrice =  6000},
-                new Car{Id =4, BrandID =3, ColorID = 3, ModelYear =2015,DailyPrice =  8000},
-                new Car{Id =5, BrandID =3, ColorID = 3, ModelYear =2020,DailyPrice =  10000},
+                new Car{CarId =1, BrandID =1, ColorID = 1, ModelYear =2000,DailyPrice =  2000},
+                new Car{CarId =2, BrandID =1, ColorID = 2, ModelYear =2005,DailyPrice =  4000},
+                new Car{CarId =3, BrandID =2, ColorID = 2, ModelYear =2010,DailyPrice =  6000},
+                new Car{CarId =4, BrandID =3, ColorID = 3, ModelYear =2015,DailyPrice =  8000},
+                new Car{CarId =5, BrandID =3, ColorID = 3, ModelYear =2020,DailyPrice =  10000},
             };
         }
         public void Add(Car car)
@@ -29,7 +29,7 @@ namespace DataAccess.Concrete
 
         public void Delete(Car car)
         {
-            var deleteCar = _car.Where(p => p.Id == car.Id).FirstOrDefault();
+            var deleteCar = _car.Where(p => p.CarId == car.CarId).FirstOrDefault();
             _car.Remove(deleteCar);
         }
 
@@ -50,7 +50,7 @@ namespace DataAccess.Concrete
 
         public List<Car> GetById(Car car)
         {
-            return _car.Where(p => p.Id == car.Id).ToList();
+            return _car.Where(p => p.CarId == car.CarId).ToList();
         }
 
         public List<CarDetailDto> GetCarDetails(Expression<Func<Car, bool>> filter = null)
@@ -60,7 +60,7 @@ namespace DataAccess.Concrete
 
         public void Update(Car car)
         {
-            var updateCar = _car.FirstOrDefault(p => p.Id == car.Id);
+            var updateCar = _car.FirstOrDefault(p => p.CarId == car.CarId);
             updateCar.ModelYear = car.ModelYear;
         }
     }

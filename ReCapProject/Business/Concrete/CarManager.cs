@@ -58,7 +58,7 @@ namespace Business.Concrete
 
         public IDataResult<Car> GetById(int id)
         {
-            return new SuccessDataResult<Car>(_carDal.Get(p => p.Id == id));
+            return new SuccessDataResult<Car>(_carDal.Get(p => p.CarId == id));
         }
 
         public IDataResult<List<Car>> GetByModelYear(int year)

@@ -1,9 +1,8 @@
 ﻿using Business.Concrete;
-using DataAccess.Concrete;
+using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 using System;
-using System.Collections.Generic;
 
 namespace ConsoleUI
 {
@@ -11,31 +10,30 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            CarManager carManager = new CarManager(new EfCarDal());
             BrandManager brandManager = new BrandManager(new EfBrandDal());
+            brandManager.Add(new Brand { BrandName = "Alfa Romeo" });
+            brandManager.GetAll();
+            brandManager.GetById(1);
+
             ColorManager colorManager = new ColorManager(new EfColorDal());
+            colorManager.Add(new Color { ColorName = "Sarı" });
+            colorManager.GetAll();
+            colorManager.GetById(3);
 
-            //Console.WriteLine("Markası BMW olan arabalar: \nId\tColor Name\tBrand Name\tModel Year\tDaily Price");
-            //foreach (var car in carManager.GetAllByBrandId(1))
-            //{
-            //    Console.WriteLine($"{car.Id}\t{colorManager.GetById(car.ColorID).ColorName}\t\t{brandManager.GetById(car.BrandID).BrandName}\t\t{car.ModelYear}\t\t{car.DailyPrice}");
-            //}
+            CarManager carManager = new CarManager(new EfCarDal());
+            carManager.Add(new Car { CarName = "Aston Martin", BrandID = 1, ColorID = 1, DailyPrice = 1200, ModelYear = 2015 });
+            carManager.GetAll();
+            carManager.GetCarDetails();
+            carManager.GetAllByBrandId(2);
 
-            //Console.WriteLine("\n\nId'si 4 olan araba: \nId\tColor Name\tBrand Name\tModel Year\tDaily Price");
-            //Car carById = carManager.GetById(4);
-            //Console.WriteLine($"{carById.Id}\t{colorManager.GetById(carById.ColorID).ColorName}\t\t{brandManager.GetById(carById.BrandID).BrandName}\t\t{carById.ModelYear}\t\t{carById.DailyPrice}");
+            UserManager userManager = new UserManager(new EfUserDal());
+            userManager.Add(new User { Email = "sena@gmail.com", FirstName = "Sena", LastName = "Kahveci", Password = "12345" });
 
-            //Console.WriteLine("\n\nGünlük fiyat aralığı 1000 ile 1500 olan arabalar: \nId\tColor Name\tBrand Name\tModel Year\tDaily Price");
-            //foreach (var car in IDataResult<List<Car>>(carManager.GetByDailyPrice(1000, 1500))
-            //{
-            //    Console.WriteLine($"{car.Id}\t{colorManager.GetById(car.ColorID).ColorName}\t\t{brandManager.GetById(car.BrandID).BrandName}\t\t{car.ModelYear}\t\t{car.DailyPrice}");
-            //}
+            CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
+            customerManager.Add(new Customer { UserID = 2, CompanyName = "Doğuş Holding" });
 
-            Console.WriteLine("\n");
-
-            carManager.Add(new Car { BrandID = 1, ColorID = 2, DailyPrice = -300, ModelYear = 2021 });
-            brandManager.Add(new Brand { BrandName = "a" });
-
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+            rentalManager.Add(new Rental { CarId = 1, CustomerId = 1, RentDate = DateTime.Now, ReturnDate = DateTime.Now });
         }
     }
 }
