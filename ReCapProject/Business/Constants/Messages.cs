@@ -31,6 +31,18 @@ namespace Business.Constants
         public static string ColorDeleted = "Araba Renginiz Başarıyla Silinmiştir.";
         public static string ColorUpdated = "Araba Renginiz Başarıyla Güncellenmiştir.";
 
+        //User
+        public static string UserAdded = "Kullanıcı Başarıyla Eklenmiştir.";
+        public static string UserNameInvalid = "Kullanıcı  İsminin Uzunluğunu İki Karakterden Fazla Giriniz.";
+        public static string UserList = "Kullanıcılar Başarıyla Listelendi.";
+        public static string UserDeleted = "Kullanıcı Başarıyla Silinmiştir.";
+        public static string UserUpdated = "Kullanıcı Başarıyla Güncellenmiştir.";
 
+        //Customer
+        public static string CustomerAdded = "Müşteri Başarıyla Eklenmiştir.";
+        public static string CustomerNameInvalid = "Müşteri İsminin Uzunluğunu İki Karakterden Fazla Giriniz.";
+        public static string CustomerList = "Müşteriler Başarıyla Listelendi.";
+        public static string CustomerDeleted = "Müşteri Başarıyla Silinmiştir.";
+        public static string CustomerUpdated = "Müşteri Başarıyla Güncellenmiştir.";
     }
 }
