@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspect.Autofac.Validation;
 using Core.Utilities.Result;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -18,31 +20,18 @@ namespace Business.Concrete
             _rentalDal = rentalDal;
         }
 
+        [ValidationAspect(typeof(RentalValidator))]
         public IResult Add(Rental rental)
         {
-            if (rental.ReturnDate == null)
-            {
-                return new ErrorResult(Messages.RentalNullDate);
-            }
-            else
-            {
-                _rentalDal.Add(rental);
-                return new SuccessResult(Messages.RentalAdded);
-            }
+            _rentalDal.Add(rental);
+            return new SuccessResult(Messages.RentalAdded);
         }
 
+        [ValidationAspect(typeof(RentalValidator))]
         public IResult Delete(Rental rental)
         {
-            var rentalDeleted = _rentalDal.Get(p => p.RentalId == rental.RentalId);
-            if (rentalDeleted != null)
-            {
-                _rentalDal.Delete(rental);
-                return new SuccessResult(Messages.RentalDeleted);
-            }
-            else
-            {
-                return new SuccessResult(Messages.RentalNotFound);
-            }
+            _rentalDal.Delete(rental);
+            return new SuccessResult(Messages.RentalDeleted);
         }
 
         public IDataResult<List<Rental>> GetAll()
@@ -55,19 +44,11 @@ namespace Business.Concrete
             return new SuccessDataResult<Rental>(_rentalDal.Get(p => p.RentalId == id));
         }
 
+        [ValidationAspect(typeof(RentalValidator))]
         public IResult Update(Rental rental)
         {
-            var rentalUpdated = _rentalDal.Get(p => p.RentalId == rental.RentalId);
-
-            if (rentalUpdated != null)
-            {
-                _rentalDal.Update(rental);
-                return new SuccessResult(Messages.RentalUpdated);
-            }
-            else
-            {
-                return new SuccessResult(Messages.RentalNotFound);
-            }
+            _rentalDal.Update(rental);
+            return new SuccessResult(Messages.RentalUpdated);
         }
     }
 }

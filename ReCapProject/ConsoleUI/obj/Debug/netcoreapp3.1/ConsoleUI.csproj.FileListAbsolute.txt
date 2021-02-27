@@ -80,3 +80,10 @@ D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\
 D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.dll
 D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.pdb
 D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.genruntimeconfig.cache
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.dll
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll

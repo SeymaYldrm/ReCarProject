@@ -66,3 +66,10 @@ D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\
 D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.dll
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+D:\Prog\User\Files\Documents\GitHub\ŞeymaYıldırım\ReCarProject\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
