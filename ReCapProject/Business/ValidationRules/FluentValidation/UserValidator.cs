@@ -1,8 +1,5 @@
-﻿using Entities.Concrete;
+﻿using Core.Entities.Concrete;
 using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Business.ValidationRules.FluentValidation
 {
@@ -17,10 +14,10 @@ namespace Business.ValidationRules.FluentValidation
             RuleFor(p => p.LastName).MinimumLength(2).WithMessage("İsim en az 2 karakter uzunluğunda olmalıdır.");
 
             RuleFor(p => p.Email).NotEmpty();
-            RuleFor(p => p.UserID).NotEmpty();
+            RuleFor(p => p.Id).NotEmpty();
             
-            RuleFor(p => p.Password).NotEmpty();
-            RuleFor(p => p.Password).MinimumLength(10).WithMessage("Şifre en az 10 karakter uzunluğunda olmalıdır.");
+            //RuleFor(p => p.Password).NotEmpty();
+            //RuleFor(p => p.Password).MinimumLength(10).WithMessage("Şifre en az 10 karakter uzunluğunda olmalıdır.");
         }
     }
 }

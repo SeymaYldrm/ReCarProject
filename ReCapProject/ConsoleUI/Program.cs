@@ -1,5 +1,5 @@
 ﻿using Business.Concrete;
-using DataAccess.Abstract;
+using Core.Entities.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 using System;
@@ -27,7 +27,7 @@ namespace ConsoleUI
             carManager.GetAllByBrandId(2);
 
             UserManager userManager = new UserManager(new EfUserDal());
-            userManager.Add(new User { Email = "sena@gmail.com", FirstName = "Sena", LastName = "Kahveci", Password = "12345" });
+            userManager.Add(new User { Email = "sena@gmail.com", FirstName = "Sena", LastName = "Kahveci"});
 
             CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
             customerManager.Add(new Customer { UserID = 2, CompanyName = "Doğuş Holding" });
